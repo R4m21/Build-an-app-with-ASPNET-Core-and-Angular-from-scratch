@@ -30,8 +30,10 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "./node_modules/bootswatch/dist/united/bootstrap.css",
+              "./node_modules/ngx-toastr/toastr.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -73,7 +75,7 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "sslKey": "./ssl/server.key",
-            "sslCert": "./ssl/server.crt",       
+            "sslCert": "./ssl/server.crt",
             "ssl": true,
             "browserTarget": "test:build"
           },
